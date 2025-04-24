@@ -39,4 +39,5 @@ jobs:
           BARK_DEVICEKEY: ${{ secrets.BARK_DEVICEKEY }}
           FEISHU_DEVICEKEY: ${{ secrets.FEISHU_DEVICEKEY }}
       #- uses: gautamkrishnar/keepalive-workflow@master
-      - uses: gautamkrishnar/keepalive-workflow@v2
+      # - uses: gautamkrishnar/keepalive-workflow@v2
+      - uses: futuretech6/keepalive-workflow@master
