@@ -40,4 +40,5 @@ jobs:
           FEISHU_DEVICEKEY: ${{ secrets.FEISHU_DEVICEKEY }}
       #- uses: gautamkrishnar/keepalive-workflow@master
       # - uses: gautamkrishnar/keepalive-workflow@v2
-      - uses: futuretech6/keepalive-workflow@master
+      # - uses: futuretech6/keepalive-workflow@master
+      - uses: MrPhil/keepalive-workflow-version2@master
